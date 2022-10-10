@@ -21,43 +21,60 @@
       max-width: 50rem;
       margin: auto;
       background: #161816;
-
+      display: grid;
+      grid-template-columns: 9em 1fr 9em;
+      grid-template-areas:
+        "kopf kopf kopf"
+        "navi inhalt seite"
+        "bereich inhalt seite"
+        "fuss fuss fuss";
 
     }
 
     .inhalt {
       background: #FFF;
+      grid-area: inhalt;
 
     }
 
     .navi {
       background: #F5406F;
+      grid-area: navi;
 
     }
 
     .bereich {
       background: #2AC8F5;
-
+      grid-area: bereich;
     }
 
     .seite {
       background: #F58820;
-
+      grid-area: seite;
     }
 
     .kopf {
       background: #2CF5B5;
-
+      grid-area: kopf;
     }
 
     .fuss {
       background: #2CF5B5;
-
+      grid-area: fuss;
     }
 
     @media (max-width: 50em) {
 
       /* zweispaltig */
+      body {
+        grid-template-areas:
+          "kopf kopf"
+          "navi navi"
+          "seite inhalt"
+          "bereich inhalt"
+          "fuss fuss";
+        grid-template-columns: 1fr 4fr;
+      }
 
 
     }
@@ -65,6 +82,9 @@
     @media (max-width: 30em) {
 
       /* jetzt einspaltig */
+      body {
+        display: block;
+      }
 
     }
   </style>
