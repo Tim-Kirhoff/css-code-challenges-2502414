@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gridlayout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: #ECF0F1;
+      color: #000;
+    }
+
+    h1 {
+      display: flex;
+
+      gap: 0.5rem;
+    }
+
+    h1::after,
+    h1::before {
+      content: "";
+      border-bottom: 1px solid #999;
+      align-self: center;
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Eine Überschrift</h1>
+</body>
+
+</html>

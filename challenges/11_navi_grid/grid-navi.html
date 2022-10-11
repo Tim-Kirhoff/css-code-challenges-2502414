@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
-  <title>Flexbox</title>
+  <title>Gridlayout</title>
   <style>
     :root {
       --hell: #e4fced;
@@ -45,6 +45,16 @@
     .navi__link:hover {
       color: var(--hell);
       background-color: var(--dunkel);
+    }
+
+    .navi__liste {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+
+    }
+
+    .navi__liste> :last-child {
+      grid-column: -1/-2;
     }
   </style>
 </head>
