@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid</title>
+  <style>
+    .item {
+      background-color: aquamarine;
+      border-radius: 0.4rem;
+      border: 3px solid rgb(68, 68, 101);
+    }
+
+    .container {
+      display: grid;
+      gap: 20px;
+      grid-auto-rows: 200px;
+    }
+
+    @media screen and (min-width: 420px) {
+      .container {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+</body>
+
+</html>
