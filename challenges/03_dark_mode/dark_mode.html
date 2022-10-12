@@ -38,20 +38,29 @@
         }
 
         body {
-            background-color: #f8f9fa;
-            color: #212529;
+            background-color: var(--surface-1);
+            color: var(--text-1);
         }
 
         .card {
-            background: #e9ecef;
-            color: #495057;
+            background: var(--surface-2);
+            color: var(--text-2);
             padding: 1rem;
             margin: 1rem;
             border-radius: 0.2rem;
             max-width: 20rem;
         }
 
-        @media (prefers-color-scheme: dark) {}
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --text-1: var(--gray-0);
+                --text-2: var(--gray-4);
+                --surface-1: var(--gray-9);
+                --surface-2: var(--gray-8);
+                color-scheme: dark;
+                }
+
+        }
     </style>
 </head>
 
