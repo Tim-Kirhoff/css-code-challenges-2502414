@@ -16,52 +16,41 @@
             padding: 0.5rem 1rem;
             border-radius: 4px;
             color: white;
-            border: 1px solid #2cbcbf;
-            background: #2cbcbf;
+            border: 1px solid var(--farbe, #2cbcbf);
+            background: var(--farbe, #2cbcbf);
             margin: 0.5rem;
             cursor: pointer;
 
         }
 
         .btn:hover {
-            color: #2cbcbf;
+            color: var(--farbe, #2cbcbf);
             background: transparent;
         }
 
         .btn--primary {
-            background-color: #59d986;
-            border: 1px solid #59d986;
+            --farbe: #59d986;
         }
 
-        .btn--primary:hover {
-            color: #59d986;
-        }
 
         .btn--secondary {
-            background-color: #f26b1d;
-            border: 1px solid #f26b1d;
+            --farbe: #f26b1d; 
         }
 
-        .btn--secondary:hover {
-            color: #f26b1d;
-        }
 
         .btn--alert {
-            background-color: #d92211;
-            border: 1px solid #d92211;
+            --farbe: #d92211;  
         }
 
-        .btn--alert:hover {
-            color: #d92211;
-        }
+        
     </style>
 </head>
 
 <body>
-    <btn class="btn">Button</btn>
-    <btn class="btn btn--primary">Button</btn>
-    <btn class="btn btn--secondary">Button</btn>
-    <btn class="btn btn--alert">Button</btn>
+    <button class="btn">Button</button>
+    <button class="btn btn--primary">Button</button>
+    <button class="btn btn--secondary">Button</button>
+    <button class="btn btn--alert">Button</button>
 </body>
 
 </html>
