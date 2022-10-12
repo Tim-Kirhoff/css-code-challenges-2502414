@@ -2,9 +2,8 @@
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
     <style>
         body {
@@ -13,7 +12,7 @@
         }
 
         .container {
-
+            --columns: 12;
             max-width: 60rem;
             margin: 0 auto;
             display: flex;
@@ -30,6 +29,7 @@
 
         .column {
             --span: 0;
+            flex-basis: calc(var(--span) / var(--columns) * 100%);
         }
 
         .header {
@@ -38,12 +38,12 @@
         }
 
         .content {
-            --span: 7;
+            --span: 6;
             background-color: #187ad6;
         }
 
         .sidebar {
-            --span: 5;
+            --span: 6;
             background-color: #18b0d6;
         }
     </style>
