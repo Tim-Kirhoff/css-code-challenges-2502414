@@ -1,10 +1,12 @@
-# [DE-Kursname hier eintragen]
+# Code-Challenges für CSS
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `Code-Challenges für CSS`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![COURSENAME][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![COURSENAME][lil-thumbnail-url] 
 
-[COURSEDESCRIPTION]
+Hinter den Code-Challenges stecken kompakte spannende Programmierrätsel auf unterschiedlichen Schwierigkeitsstufen. Die Schwerpunkte der 13 Aufgaben liegen beim geschickten Einsatz von Variablen bzw. Custom Properties für dynamisches CSS und bei den aktuellen Layoutmodulen Grid und Flexbox.<br><br>
+
+Zu jeder Aufgabe liefert Ihre Trainerin Florence Maurice gleich die passende Lösung, doch können Sie Ihren Lösungsweg auch ganz leicht mitprogrammieren und testen, denn dieser Kurs zeichnet sich durch eine nahtlose Integration in GitHub Codespaces, einer cloudbasierten Entwicklungsumgebung (IDE), aus. Sie müssen keinen lokalen Rechner einrichten und können direkt zu jeder Zeit praktische Übungen durchführen. Die Installation und Aktivierung der Sandbox wird zum Start des Kurses ausführlich dargestellt. Da jede Aufgabe in sich abgeschlossen ist, können Sie den Kurs in beliebiger Reihenfolge und in Ihrem eigenen Tempo absolvieren.
 
 ## Anleitung
 
@@ -43,5 +45,5 @@ _[Berufsbezeichnung hier eintragen]_
 Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-course-url]: https://www.linkedin.com/learning/code-challenges-fur-css
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQHRSW_Wnp3rqg/learning-public-crop_675_1200/0/1673957172385?e=1674820800&v=beta&t=YBDjtpUah_4t7fusbGVGE7NWT9mHaGKfFUS87YrhFYQ
