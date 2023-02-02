@@ -41,4 +41,4 @@ Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linke
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/code-challenges-fur-css
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQHRSW_Wnp3rqg/learning-public-crop_675_1200/0/1673957172385?e=1674820800&v=beta&t=YBDjtpUah_4t7fusbGVGE7NWT9mHaGKfFUS87YrhFYQ
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQGb4YE0RsObOA/learning-public-crop_675_1200/0/1674466971180?e=2147483647&v=beta&t=OsCvO83e_rFJWk-wDUlQYGr1JcVjbazNovF8feRIqTk
